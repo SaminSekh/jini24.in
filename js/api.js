@@ -11,7 +11,7 @@
 const SheetsAPI = (() => {
 
   // ── Configuration ──────────────────────────────────────
-  let SCRIPT_URL = localStorage.getItem("ghs_script_url") || "https://script.google.com/macros/s/AKfycbzoxlgV3rax2HgHLoqwXppiIwABGVFOj7nzGsoiBdktg73wXkq6krRLVvQ14rMeQCtA5Q/exec";
+  let SCRIPT_URL = localStorage.getItem("ghs_script_url") || "https://script.google.com/macros/s/AKfycbxYpIL6joncK2FpwR7SGN8iNrNBmqEtqxs4NFALDBWxZDCY-nlR8PG28cA7ZkyRkhTugw/exec";
 
   function setScriptUrl(url) {
     SCRIPT_URL = url.trim();
